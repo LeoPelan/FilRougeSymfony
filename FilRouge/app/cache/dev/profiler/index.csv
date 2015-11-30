@@ -123,3 +123,16 @@ e76913,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/body.css,144888
 184a31,127.0.0.1,GET,http://127.0.0.1:8000/current-time,1448880445,,200
 05a406,127.0.0.1,GET,http://127.0.0.1:8000/current-time,1448880673,,200
 fc880b,127.0.0.1,GET,http://127.0.0.1:8000/current-time,1448880674,,200
+cee9d2,127.0.0.1,GET,http://127.0.0.1:8000/,1448889850,,200
+458e06,127.0.0.1,GET,http://127.0.0.1:8000/current-time,1448889861,,200
+f3a05b,127.0.0.1,GET,http://127.0.0.1:8000/square/1,1448889887,,200
+df5f60,127.0.0.1,GET,http://127.0.0.1:8000/square/2,1448889891,,200
+7b4cfa,127.0.0.1,GET,http://127.0.0.1:8000/square/4,1448889952,,200
+edc6c9,127.0.0.1,GET,http://127.0.0.1:8000/lele/non,1448889956,381c04,200
+381c04,127.0.0.1,GET,http://127.0.0.1:8000/lele/non,1448889956,,404
+daac16,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/structure.css,1448889957,c1617c,200
+c1617c,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/structure.css,1448889957,,404
+cc040f,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/exception.css,1448889957,cbcdf3,200
+cbcdf3,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/exception.css,1448889957,,404
+7b6b46,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/body.css,1448889958,17c425,200
+17c425,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/body.css,1448889958,,404
