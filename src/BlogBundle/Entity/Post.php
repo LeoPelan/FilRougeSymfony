@@ -7,8 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Post
  *
- * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Table(name="post", indexes={@ORM\Index(name="is_published_idx", columns={"is_published"})})
+ * @ORM\Entity(repositoryClass="Blog\Bundle\BlogBundle\Repository\PostRepository")
  */
 class Post
 {
@@ -44,7 +44,9 @@ class Post
 
     /**
      * @ORM\ManyToOne(targetEntity="category", inversedBy="posts")
+     * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
      */
+
     protected $category;
 
     /**
@@ -128,5 +130,28 @@ class Post
     {
         return $this->isPublished;
     }
-}
 
+    /**
+     * Set category
+     *
+     * @param \BlogBundle\Entity\category $category
+     *
+     * @return Post
+     */
+    public function setCategory(\BlogBundle\Entity\category $category = null)
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * Get category
+     *
+     * @return \BlogBundle\Entity\category
+     */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+}
