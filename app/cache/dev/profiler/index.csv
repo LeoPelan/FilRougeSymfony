@@ -136,3 +136,4 @@ cc040f,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/exception.css,1
 cbcdf3,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/exception.css,1448889957,,404
 7b6b46,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/body.css,1448889958,17c425,200
 17c425,127.0.0.1,GET,http://127.0.0.1:8000/bundles/framework/css/body.css,1448889958,,404
+c6ea3e,127.0.0.1,GET,http://127.0.0.1:8000/square/4,1448893280,,200
